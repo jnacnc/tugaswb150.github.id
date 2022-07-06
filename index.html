@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rumah Coding</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<head>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href=' '>Rumah Coding</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#tutors">Tutors</a></li>
+                    <li><a href="#partners">Partners</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+
+                    <div id="id01" class="modal">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                        <form class="modal-content" action="/action_page.php">
+                            <div class="container">
+                                <h1>Sign Up</h1>
+                                <p>Please fill in this form to create an account.</p>
+                                <hr>
+                                <label for="email"><b>Email</b></label>
+                                <input type="text" placeholder="Enter Email" name="email" required>
+            
+                                <label for="psw"><b>Password</b></label>
+                                <input type="password" placeholder="Enter Password" name="psw" required>
+            
+                                <label for="psw-repeat"><b>Repeat Password</b></label>
+                                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                  
+                                <label>
+                                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                                </label>
+            
+                                <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+            
+                                <div class="clearfix">
+                                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                                    <button type="submit" class="signupbtn">Sign Up</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+            
+                    <script>
+            
+                        var modal = document.getElementById('id01');
+            
+            
+                        window.onclick = function(event) {
+                        if (event.target == modal) {
+                        modal.style.display = "none";
+                            }
+                        }
+                    </script>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="wrapper">
+        <section id="home">
+            <img src="https://img.freepik.com/free-vector/pair-programming-concept-illustration_114360-1652.jpg?size=626&ext=jpg&ga=GA1.2.2100098573.1653583598" />
+            <div class="kolom">
+                <p class="deskripsi">Belajar Progaming #dirumahaja</p>
+                <h2>Tetap Sehat, Tetap Semangat</h2>
+                <p>Belajar dari rumah itu membosankan bagi orang-orang yang belum punya keinginan.</p>
+                <p><a href="" class="tbl-hijau">Pelajari Lebih Lanjut</a></p>
+
+            </div>
+        </section>
+
+        <section id="courses">
+            <div class="kolom">
+                <p class="deskripsi">You Will Need This</p>
+                <h2>Online Courses</h2>
+                <p>Dukungan kurikulum yang tepat untuk meningkatkan skill, serta metode belajar yang bisa dipilih sendiri. Waktunya wujudkan karier impianmu dengan mudah!</p>
+                <p><a href="" class="tbl-aqua">Mulai Sekarang</a></p>
+            </div>
+            <img src="https://img.freepik.com/free-vector/online-learning-isometric-concept_1284-17947.jpg?size=626&ext=jpg&ga=GA1.2.2100098573.1653583598" />
+        </section>
+
+        <section id="tutors">
+            <div class="tengah">
+                <div class="kolom">
+                    <p class="deskripsi">Our Top Tutors</p>
+                    <h2>Tutors</h2>
+                    <p>Ada beberapa Guru atau Dosen yang ahli di dalam bidangnya yang siap untuk mengajari anda.</p>
+                </div>
+        </section>
+
+        <div class="tutor-list">
+            <div class="kartu-tutor">
+                <img src="https://www.masterclass.com/course-images/attachments/qnxFWnE5e6nPvh4pa7qfJsWv?width=400&height=400&fit=cover&dpr=2" />
+                <p>Bastian Balin</p>
+            </div>
+            <div class="kartu-tutor">
+                <img src="https://static01.nyt.com/images/2021/03/31/obituaries/18Mileti/18Mileti-mediumSquareAt3X.jpg" />
+                <p>Richard</p>
+            </div>
+            <div class="kartu-tutor">
+                <img src=" https://lisacampion.com/wp-content/uploads/2020/11/VerdiStudio-3.jpg" />
+                <p>Yolanda</p>
+            </div>
+            <div class="kartu-tutor">
+                <img src="https://static01.nyt.com/images/2022/05/19/opinion/firstpersonPromo/firstpersonPromo-articleLarge.jpg?quality=75&auto=webp&disable=upscale" />
+                <p>Jane</p>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="partners">
+        <div class="tengah">
+            <div class="kolom">
+                <p class="deskripsi">Our Top Partners</p>
+                <h2>Partners</h2>
+                <p>Rumah Coding juga bekerja sama kepada beberapa Universitas.</p>
+            </div>
+
+            <div class="partner-list">
+                <div class="kartu-partner">
+                    <img src="https://i.pinimg.com/736x/97/e3/86/97e38683e56cd3c299b38cd280f97877.jpg" />
+                </div>
+                <div class="kartu-partner">
+                    <img src="https://images-platform.99static.com//Njwsdp2N4AYKlxOF_cm_MwvyTMw=/0x0:1000x1000/fit-in/500x500/99designs-contests-attachments/125/125896/attachment_125896981" />
+                </div>
+                <div class="kartu-partner">
+                    <img src="https://t3.ftcdn.net/jpg/01/63/51/98/360_F_163519830_xWUescjSKgNmVofIqD0dvWzMclz7t0hg.jpg" />
+                </div>
+                <div class="kartu-partner">
+                    <img src="https://images-platform.99static.com//2fWz1Q_MGwumJRk5x1UjpT2WDtE=/331x329:1268x1266/fit-in/500x500/99designs-contests-attachments/60/60126/attachment_60126882" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="contact">
+        <div class="footer">
+            <div class="footer-section">
+                <h3>Rumah Coding</h3>
+                <p>Rumah Coding memberikan pengalaman melatih skills digital yang berbeda. Kurikulum yang dirancang sesuai kebutuhan industri dan kerja sama tim yang apik di project tugas akhirnya. Ditambah, peran Job Connect yang selalu siap membantu anda
+                    hingga berlabuh di LingoTalk.</p>
+            </div>
+            <div class="footer">
+                <div class="footer-section">
+                    <h3>About</h3>
+                    <p>Frequently Asked Questions (FAQ)</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Jln. Simpang Acai Perumahan Doly Jaya Jambi</p>
+                    <p>Kode Pos: 56363</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Social</h3>
+                    <p>Youtube: Rumah Coding</p>
+                    <p>Instagram: rumah.coding</p>
+                    <p>Facebook: Rumah Coding</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="copyright">
+        <div class="wrapper">
+            &copy; 2022. <b>Rumah Coding</b> All Rights Reserved.
+        </div>
+    </div>
+</body>
+
+</html>
